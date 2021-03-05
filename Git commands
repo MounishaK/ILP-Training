@@ -1,0 +1,14 @@
+git  --version
+git init
+git status
+git add filename (git add test.txt)
+git commit -m "any mesage"
+git status
+
+git reset HEAD simple.txt
+
+#To push on our repository
+
+git remote add origin hettps:// copy link from the repository
+git push -u origin HEAD
+asks for username n passcode
