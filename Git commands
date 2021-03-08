@@ -1,14 +1,19 @@
 git  --version
-git init
-git status
-git add filename (git add test.txt)
-git commit -m "any mesage"
+git init - used to create the local repo.
+git status - used to check the last command status.
+git add filename (git add test.txt) - used to add file or folder or project to staging area.
+git commit -m "any mesage" - used to pass the files or folder from staging area to local repo.
 git status
 
 git reset HEAD simple.txt
 
 #To push on our repository
 
-git remote add origin hettps:// copy link from the repository
-git push -u origin HEAD
+git remote add origin hettps:// copy link from the repository - used to link local repo to remote repo.
+git push -u origin HEAD - used to pass the value from local repo to remote repo.
 asks for username n passcode
+
+
+https://github.com/kaleakash/TCSMEANStackTraining.git/
+git clone url - used to download the remote repo to local machine.
+git pull - used for the new updates of the same folder or file.
