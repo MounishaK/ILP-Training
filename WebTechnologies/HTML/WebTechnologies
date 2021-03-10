@@ -1,0 +1,311 @@
+HTML
+CSS
+Java Script
+HTML - Hypertext markup Languages
+web application - one or more web pages
+using HTML we can create either staic or dynamic web pages.
+
+latest version of HTML - HTML5
+Tags
+syntax
+<tagname>  - opening tag
+</tagname> - closing tag
+<tagname/> - self closing tags. (only few tags use this self closing)
+HTML is case sensitive.
+
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <p> </p> - paragrph
+    <br> </br> - break to next 
+    <h1> </h1> - larger header size
+    .
+    .
+    .
+    <h6> </h6> - smaller header size
+
+Day 3:
+
+
+    * atrributes - always key -value pairs.
+    <tagname name = "value1" name2 = "value2"> </tagane>
+
+    <p align = "right">...</p>
+    <h1 alogn = "right"> </h1>
+
+    * Hyperlink
+    External Hyperlink
+    Internal Hyperlink
+
+    * external hyperlink examples
+    <a href = "same folder lo vunte just "about.html"">AboutUs </a>
+    <a href = "you can right give some link as well">linkname for refernece </a>
+    <a href = "https://www.google.com> Google Page </a>
+
+    a -> anchor
+    href -> hyper reference
+
+
+    * Internal hyperlink examples or bookmark
+    <hr/> - horizontal line
+    <h2>First tipic</h2>
+    <p> First topic </p>
+
+    <h2>Second tipic</h2>
+    <p> Second topic </p>
+
+    <h2>Third tipic</h2>
+    <p> Third topic </p>
+
+    <h2>Third tipic</h2>
+    <p> Third topic </p>
+
+    <a href = "#a1">First topic</a>
+    <a name = "a1"> </a> - it works either with name or id.
+
+
+    * Image Tag
+    <img src = "nameoftheimage.extension"/>
+
+    *List Tag
+    <ul> -unordered list // <ul type = "circle"> default - bullets.
+        <li> </li>
+        <li> </li>
+    </ul>
+
+    <ol> - ordered list ; type can be "A", "roman -"I",default - numbers
+        <li> </li>
+        <li> </li>
+    <ol>
+
+    dl - definition list
+    dt - definition term
+    dd -definition description
+
+    <dl>
+
+        <dt> HTML </dt>
+        <dd> Hyper text markup language </dd>
+    </dl>
+
+    * Table Tag
+
+    Employee details
+    ID    name       salary
+    1   Mounisha       20
+    2   Anusha         30
+    3   Anisha         20
+
+    <table border = "10px" cellpadding = "30px" >
+        <caption> Pet Details </caption>
+         <tr> 
+             <th>ID</th>
+             <th>Name</th>
+             <th>Animal</th>
+        </tr>
+        <tr> 
+             <td>1</td>
+             <td>Blue</td>
+             <td>Fish</td>
+        </tr>
+        <tr> 
+             <td>2</td>
+             <td>Leo</td>
+             <td>Dog</td>
+        </tr>
+
+        Form tag
+        Login page, application, feedback page
+        <form action = "home.html" method = "get"> //method = "post"
+        post is more secured than get.
+        and it doesnt allow to capture the data.
+
+        <label> Username </label>
+        <input type = "text/password/radio/check/reset/submit"/>
+        <input type = "submit"/> - it goes to the form action.
+        <input type = "submit" value = "SignIn!"/> 
+        <input type = "reset"/> 
+        <input type = "button" value = "ClickHere" />
+        </form>
+
+        URL rewrite technique.
+        url?key = value&key = value& key = Value
+        <form action = "home.html" method = "get"> //method = "post"
+        post is more secured than get.
+        and it doesnt allow to capture the data.
+
+        performance wise GET is more faster.
+</html>
+
+Day 4:
+
+
+HTML 4 
+
+<html public = "URL      .dtd">
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+
+Document typ definition - dtd
+
+
+HTML 5
+<!doctype HTML> : given the instruction tobrowser writing HTML5 version features.
+
+CSS
+
+cascading style sheets - used for formating.
+CSS file divided into 3types.
+1. inline
+2. Internal or Embedded
+3. External 
+
+
+* inline css -
+syntaxx 
+    <tagname
+        style "property:value;proprty:value">
+    </tagnmae>
+
+    p,h1,b,form,imput.
+    
+
+* internal or Embedded CSS
+
+in between head tag we have to write sytle tag.
+
+<style type =" text/css">
+    selector {property: value; property:value}
+</style>
+    *    specific selector
+        tagname {property:value;}
+        p,h1,h6,div,span,b,etc.
+
+    *   Multi specific selector
+        tagname, tagname,tagname{property:value;}
+
+    *   Local class selector
+        tagname.classname{property:value;}
+        p.abc{color: red;}
+
+    *   Global class selector
+        .classname{property:value;}
+        .mno{color: blue;}
+    
+    *   id selector
+        #idname {property:value;}
+    <head>
+        #a1{color: tomato;}
+    </head>
+    <body>
+        <header id ="a1"> this is header </header>
+    </body>
+    class selector vs Id selector
+        More than one tag must be part of the same class
+                or
+        Class is a group of morethan one tags.
+
+    Id is used to give uniqueness for the tags.
+
+    <p class = "abc" id = "a1">First paragrph</p>
+    <p class = "xyz" id = "a2">second paragrph</p>
+    <p class = "abc" id = "a3">Third paragrph</p>
+    <p class = "xyz" id = "a4">Fourth paragrph</p>
+    
+
+div tag - known as container tag.
+        - which contains more than one tags like p,h1,span as well as another div tag.
+
+        div p{color: red;} - to apply only for p inside div
+        div div p{color: pink;} - to apply for div inside div.
+        
+        <body>
+            <div>
+                    <p><font color = "red" ><u>Welcome to my web page !!</u></font></p>
+                    <div>
+                        <p></p>
+                    </div>
+            </div>
+        </body>
+
+* External CSS
+ we need to link the .css file in the head.
+ <head>
+    <link rel = "stylesheet" href = "nameofthefile.css" />
+</head>
+
+
+font properties - 
+    .fontClass
+    {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: coral;
+    text-decoration: underline; 
+    }
+    
+    a{text-decoration: none;}
+
+backgroundstyle properties
+    body{
+        background-Image:url("nameofimg.png/jpeg/jpg"); - this gives image over the text.
+        background-repeat: no-repeat;
+        background-size: 1200px;
+        background-attachment: fixed;
+        }
+
+border properties
+
+    #d1{
+        border-color: cyan;
+        border-width: 2px;
+        border-style: solid;
+    }
+    #d2{
+        border-color: darkorange;
+        border-width: groove;
+        border-style: 10px;
+    }
+    #d3{
+        border: solid.red.5px;
+    }
+
+    div{
+        padding: 20px;
+        border: red solid 2px;
+        margin: 30px;
+        width: 100px;
+        height: 200px;
+        float: left;
+        border-radius: 40px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    div{
+        padding: 20px;
+        border: red solid 2px;
+        margin: 30px;
+        width: 100px;
+        height: 200px;
+        float: left;
+        border-radius: 40px;
+        text-align: center;
+        background-color: silver;
+        display: flex;
+        justify-content: center;
+        align-item: center;
+    }
+
+    for a box -
+         inside border - cell padding (something around the content)
+         outside border - margin
