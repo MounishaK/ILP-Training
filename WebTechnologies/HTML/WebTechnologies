@@ -309,3 +309,11 @@ border properties
     for a box -
          inside border - cell padding (something around the content)
          outside border - margin
+
+    Transform property
+        transform: translate(200px,180px)
+
+    Transistion property
+
+
+    CSS3 Animation - Allows most of html pages without java script and flash.

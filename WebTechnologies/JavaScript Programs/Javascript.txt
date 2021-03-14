@@ -1,0 +1,92 @@
+Java Script
+    - web based interpreter scripting language.
+
+    ES5 - ECMA Script - European Computer Manufacture Association.
+
+    Object based interpreter scripting language.
+
+    <script type = "text/javascript"> - opening tag
+    </script> - closing tag
+
+    This can be written in between head tag, body tag and without them also possible but not advisible.
+
+    document.write("Heyy !!"); - case sensitive and semicolon isnt necessary in Java Script.
+
+    Variable and data types
+        - var variableName; (var-up to ES5 JS.)
+    datatypes:
+        1. Number
+        2. string
+        3. Boolean
+        4. Obect reference.
+
+    Operators:
+        1. Arithmetic Operators: +,-,*,/,%
+        2. Relational operators: >,>=,<,<=,==,!=
+        3. Assignment operators: =
+        4: ===,:
+        5. Logical operators: &&,||,!
+        6. Typeof operator or function
+    
+    Conditions:
+        1. simple if statement
+        2. if else
+        3. if else if
+        4. switch statement
+
+    loops - initialization, condition, increment/decrement.
+        1. while loop
+        2. do while loop
+        3. for loop
+
+    Day 6
+
+    Functions and Events
+        - pre defined functions.
+            document.write("welcome to JS");
+            1. alert("Any message");
+            2. prompt("msg") - it receives input from the user.
+            3. eval() - use to convert string to number.
+                   - parseInt() - string to initialization
+                   - parseFloat() - string to float
+        
+        - User defined functions.
+            - its always good to write the user defined functions in head part.
+            - function functionName(parameterList)
+                {
+
+                } 
+            - calling functions in body part.
+        
+        - Events
+            -
+
+
+JSON - Java script onject Notation
+JSON is used to share the data between one application to another application.
+JSON stores the data in key value pairs.
+    - where key is string type and value is Boolean type.
+
+JSON.stringify() - JSON to string conversation
+JSON.parse() - String to JSON conversation
+
+Storage Objects
+    - HTML5/JavaScript provide two types of stroage objects.
+    1. sessionStroage: it hold the value till application closed.
+                        Once application closed the value gt destroy from session.
+    2. localStroage: it hold the value in secondary memory ,
+                    after closing the application also we can get next time when we open the application.
+
+
+    using stroage object we can share the value between more than one page or application.
+
+    one.js
+        sessionStroage.setItem("key",value);
+        localStroage.setItem("key",value);
+
+    two.js
+        sessionStroage.gettItem("key");
+        localStroage.getItem("key");
+
+        sessionStroage.removeItem("key");
+        localStroage.removeItem("key");
