@@ -9,7 +9,7 @@ git reset HEAD simple.txt
 
 #To push on our repository
 
-git remote add origin hettps:// copy link from the repository - used to link local repo to remote repo.
+git remote add origin https:// copy link from the repository - used to link local repo to remote repo.
 git push -u origin HEAD - used to pass the value from local repo to remote repo.
 asks for username n passcode
 
