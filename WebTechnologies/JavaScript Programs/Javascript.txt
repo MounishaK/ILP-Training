@@ -90,3 +90,52 @@ Storage Objects
 
         sessionStroage.removeItem("key");
         localStroage.removeItem("key");
+
+Day 7:
+
+Functions
+1. Normal function
+2. Expression style function   
+    - with functionName
+    - without functionName
+3. callback function
+    - passing the function body or function itself to
+     another function is known as callback functions.
+4. Arrow function - kinda lamda function in java.
+5.  IIFE - Immediate Invoke Function Expression 
+    - when you want to immediately only once, 
+     without depend uppn events or another script.
+
+Arrays
+1. var onject = [100,200]; // creating object using literal style.
+2. var object1 = new Array(100,200); // creating using new keyword.
+    - forEach
+
+
+User Defined Objects
+    -refer jsuserdefinedobjects.js and html files.
+creating user defined objects using ES5 style
+    function employee()
+    {
+
+    }
+
+Synchronous and Asynchronous Commuication.
+
+synchronous Communication: This code is executed in sequence.
+Asynchronous Communication: This code execute independently.
+
+setTimeout() - predefined function which is used to 
+                achieve asynchrnous Communication.
+setInterval() 
+
+Promise: promise is a predefined object 
+provided by java which help to handle Asynchronous operation.
+It also handle error.
+It has 4 states:
+    1. Fulfilled: when promise is success
+    2. Rejected: when promise is failure
+    3. Pending: when promise is pending state
+    4. Settled: when promise is completed
+
+

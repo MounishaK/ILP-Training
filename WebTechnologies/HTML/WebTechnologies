@@ -44,7 +44,7 @@ Day 3:
     * external hyperlink examples
     <a href = "same folder lo vunte just "about.html"">AboutUs </a>
     <a href = "you can right give some link as well">linkname for refernece </a>
-    <a href = "https://www.google.com> Google Page </a>
+    <a href = "https://www.google.com"> Google Page </a>
 
     a -> anchor
     href -> hyper reference
