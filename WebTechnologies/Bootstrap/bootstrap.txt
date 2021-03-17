@@ -1,0 +1,53 @@
+ - It is a open source CSS framework which help for developing responsive and mobile - first application or websites.
+
+ .fontClass
+ {
+
+ }
+
+ copy and paste the below link in head part to get bootstrap effects in the html page..
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+might need separate links, that you find on bootstrap link.
+
+container - predefined class 
+container-fluid - predefined class 
+class = btn btn-success - predefined class and btn-success is child class
+<input type = "button" value = "clickhere" class ="btn btn-success"/>
+
+ //buttons linked are under bootstrap site->components->buttonexamples
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+
+
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+    
+
+Bootsrtap grid layout:
+    - Bootsrap grid layout use a series of rows and columns to layout and align the container.
+    - In grid layout each row divided into 12 coloumns.
+
+<div class="alert alert-primary" role="alert"> 
+            A simple primary alert—check it out!
+</div> //used to give alerts, for clear view, open html file in browser.
+
+Navigators
+    - "nav" - default left
+    - "nav justify-content-center" - center
+    - "nav justify-content-end" - right/end
+
+
+

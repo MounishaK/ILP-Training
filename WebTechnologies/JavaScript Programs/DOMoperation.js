@@ -26,8 +26,8 @@ function onFormSubmit()
 function readFormData()
 {
     var obj = {} // empty object
-    obj.name = document.getElementsById("user").value;
-    obj.name = document.getElementsById("age").value;
+    obj.name = document.getElementById("user").value;
+    obj.name = document.getElementById("age").value;
     console.log(obj);
     //return obj;
 }
@@ -49,8 +49,8 @@ function insertNewRecord(data)
 
 function resetData()
 {
-    document.getElementsById("name").value ="";
-    document.getElementsById("age").value = "";
+    document.getElemensById("name").value ="";
+    document.getElementById("age").value = "";
         
 }
 */

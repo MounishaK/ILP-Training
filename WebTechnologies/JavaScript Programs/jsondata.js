@@ -14,7 +14,7 @@ document.write("Id is " + empobj.id+"<br/>")
 document.write("Name is " + empobj.name+"<br/>")
 document.write("Salary is "+ empobj.salary+"<br/>")
 
-//convert onject into string Format
+//convert object into string Format
 var empString = JSON.stringify(empobj);
 document.write("<br/>")
 document.write("Employee Object in string fromat <br/>")
