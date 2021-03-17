@@ -8,7 +8,7 @@ div{
     float: left;
     border-radius: 40px;
 }
- div{
+div{
      transform: translate(200px,180px);
      transform: translateX(400px);
      transform: translateY(400px);
